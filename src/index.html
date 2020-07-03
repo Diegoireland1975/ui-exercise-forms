@@ -15,27 +15,29 @@
         Please enter your Email adress below to receive a password reset link
       </p>
       <form class="form" action="">
-        <div class="container">
-          <div class="info">
-            <label for="mail">Email Address</label>
-            <input
-              type="email"
-              id="mail"
-              name="user-mail"
-              placeholder="your Email Adress"
-            />
+        <fieldset>
+          <div class="container">
+            <div class="info">
+              <label for="mail">Email Address</label>
+              <input
+                type="email"
+                id="mail"
+                name="user-mail"
+                placeholder="your Email Adress"
+              />
+            </div>
+            <div class="password">
+              <button class="btn" type="submit">Reset Password</button
+              ><a href="#">Go Back</a>
+            </div>
+            <div class="password">
+              <label for="select"
+                >Are you having trouble to receiving your password reset?</label
+              >
+              <select name="" id="select"></select>
+            </div>
           </div>
-          <div class="password">
-            <button class="btn" type="submit">Reset Password</button
-            ><a href="#">Go Back</a>
-          </div>
-          <div class="info">
-            <label for="select"
-              >Are you having trouble to receiving your password reset?</label
-            >
-            <select name="" id="select"></select>
-          </div>
-        </div>
+        </fieldset>
       </form>
     </main>
   </body>
