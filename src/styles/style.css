@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 body {
   background-color: #fff;
+  font-family: "Open Sans", serif;
 }
 
 a {
@@ -19,7 +22,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100vh;
 }
 
 /* form style */
@@ -27,6 +30,11 @@ main {
   margin-top: 3rem;
   background: #eee;
   width: 100%;
+}
+
+fieldset {
+  padding: 2rem 0;
+  border: none;
 }
 .container {
   margin: 0 auto;
@@ -46,15 +54,21 @@ label {
 }
 
 input {
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   margin-bottom: 1rem;
   width: 100%;
+  background-color: rgb(189, 207, 207);
+  color: #000;
+  border-radius: 5px;
+  border: none;
 }
 
 .password {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.5rem;
+  color: rgb(44, 44, 160);
 }
 
 .btn {
@@ -62,9 +76,10 @@ input {
   color: #fff;
   background: rgb(44, 44, 160);
   font-size: 1.5rem;
+  border-radius: 3px;
+  border: none;
 }
 
 select {
-  width: 300px;
   border: none;
 }
