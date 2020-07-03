@@ -3,3 +3,68 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+/* form style */
+.form {
+  margin-top: 3rem;
+  background: #eee;
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+}
+
+.heading-form {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input {
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 1rem 4rem;
+  color: #fff;
+  background: rgb(44, 44, 160);
+  font-size: 1.5rem;
+}
+
+select {
+  width: 300px;
+  border: none;
+}
