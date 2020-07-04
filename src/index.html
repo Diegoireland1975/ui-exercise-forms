@@ -14,12 +14,13 @@
       <p>
         Please enter your Email adress below to receive a password reset link
       </p>
-      <form class="form" action="">
+      <form class="form" action="login.php" method="POST">
         <fieldset>
           <div class="container">
             <div class="info">
               <label for="mail">Email Address</label>
               <input
+                required
                 type="email"
                 id="mail"
                 name="user-mail"
@@ -27,14 +28,15 @@
               />
             </div>
             <div class="password">
-              <button class="btn" type="submit">Reset Password</button
+              <button class="btn" type="submit" onclick="getInfo()">
+                Reset Password</button
               ><a href="#">Go Back</a>
             </div>
             <div class="password">
               <label for="select"
                 >Are you having trouble to receiving your password reset?</label
               >
-              <select name="" id="select"></select>
+              <select name="list" id="select"> </select>
             </div>
           </div>
         </fieldset>
