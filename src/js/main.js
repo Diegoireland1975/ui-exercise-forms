@@ -25,5 +25,5 @@ const myHeading = document.getElementById("myHeading");
 const myButton = document.getElementById("myButton");
 
 myButton.addEventListener("click", () => {
-  myHeading.style.backgroundColor = "red";
+  myHeading.style.color = "red";
 });
