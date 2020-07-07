@@ -11,6 +11,12 @@ body {
   font-family: "Open Sans", serif;
 }
 
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,11 +41,6 @@ main {
 fieldset {
   padding: 2rem 0;
   border: none;
-}
-.container {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 500px;
 }
 
 .heading-form {
