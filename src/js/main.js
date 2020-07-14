@@ -24,6 +24,9 @@
 const myHeading = document.getElementById("myHeading");
 const myButton = document.getElementById("myButton");
 
-myButton.addEventListener("click", () => {
+myButton.addEventListener("mouseover", () => {
   myHeading.style.color = "red";
+});
+myButton.addEventListener("mouseout", () => {
+  myHeading.style.color = "black";
 });
